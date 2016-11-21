@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "Google Cache",
+	"description": "Ver no Google Cache",
+	"version": "1.0",
+	"background": {
+		"scripts": [ "background.js" ]
+	  },
+	"browser_action": {
+		"default_icon": "icone.png",
+		"default_title": "Ver em cache!"
+	},
+	"permissions": [
+		"activeTab", "tabs"
+	]
+}
